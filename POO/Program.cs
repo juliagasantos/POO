@@ -36,3 +36,8 @@ dog.DadosAnimal();
 //--------------------------------Polimorfismo--------------------------------
 Forma forma = new Circulo();
 forma.Desenhar();
+
+
+//--------------------------------Abstracão--------------------------------
+Funcionario funcionario = new Gerente();
+funcionario.CalcularSalario();
